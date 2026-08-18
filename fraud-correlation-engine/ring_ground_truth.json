@@ -1,0 +1,297 @@
+[
+  {
+    "ring_id": "RING-001",
+    "phones": [
+      "+917364813278",
+      "+919429946048",
+      "+917802439256"
+    ],
+    "upis": [
+      "user85423@okicici"
+    ],
+    "accounts": [
+      "85553035110"
+    ],
+    "ifscs": [
+      "SBIN0198246"
+    ],
+    "fraud_type": "Digital Arrest Scam",
+    "num_complaints": 7
+  },
+  {
+    "ring_id": "RING-002",
+    "phones": [
+      "+918972613478",
+      "+918839036062",
+      "+919346295181"
+    ],
+    "upis": [
+      "user65863@ybl",
+      "user55985@paytm",
+      "user92810@ybl"
+    ],
+    "accounts": [
+      "53398362082",
+      "29331191390"
+    ],
+    "ifscs": [
+      "SBIN0197251",
+      "UTIB0201414"
+    ],
+    "fraud_type": "Fake Job Offer Fraud",
+    "num_complaints": 9
+  },
+  {
+    "ring_id": "RING-003",
+    "phones": [
+      "+917866715695",
+      "+919391170217",
+      "+918757126361"
+    ],
+    "upis": [
+      "user18080@paytm",
+      "user94990@ibl"
+    ],
+    "accounts": [
+      "83306468299",
+      "18149203558"
+    ],
+    "ifscs": [
+      "KKBK0403445"
+    ],
+    "fraud_type": "Loan App Harassment",
+    "num_complaints": 7
+  },
+  {
+    "ring_id": "RING-004",
+    "phones": [
+      "+918245546434"
+    ],
+    "upis": [
+      "user75056@ybl",
+      "user47955@ybl"
+    ],
+    "accounts": [
+      "99833953718",
+      "92176667861"
+    ],
+    "ifscs": [
+      "PUNB0864544"
+    ],
+    "fraud_type": "Digital Arrest Scam",
+    "num_complaints": 6
+  },
+  {
+    "ring_id": "RING-005",
+    "phones": [
+      "+918243345382",
+      "+919097183000"
+    ],
+    "upis": [
+      "user80151@okaxis"
+    ],
+    "accounts": [
+      "14964411347"
+    ],
+    "ifscs": [
+      "UTIB0380746",
+      "SBIN0321231"
+    ],
+    "fraud_type": "Sextortion",
+    "num_complaints": 9
+  },
+  {
+    "ring_id": "RING-006",
+    "phones": [
+      "+919147775435"
+    ],
+    "upis": [
+      "user75868@ybl",
+      "user37127@ybl"
+    ],
+    "accounts": [
+      "84560027313",
+      "84528853029"
+    ],
+    "ifscs": [
+      "HDFC0245051",
+      "PUNB0617488"
+    ],
+    "fraud_type": "Loan App Harassment",
+    "num_complaints": 4
+  },
+  {
+    "ring_id": "RING-007",
+    "phones": [
+      "+917500892240"
+    ],
+    "upis": [
+      "user91197@okhdfcbank"
+    ],
+    "accounts": [
+      "59509760584"
+    ],
+    "ifscs": [
+      "PUNB0363626",
+      "PUNB0112038"
+    ],
+    "fraud_type": "Loan App Harassment",
+    "num_complaints": 12
+  },
+  {
+    "ring_id": "RING-008",
+    "phones": [
+      "+919518594012",
+      "+918114624621"
+    ],
+    "upis": [
+      "user54530@okhdfcbank",
+      "user10343@ibl"
+    ],
+    "accounts": [
+      "74214257751"
+    ],
+    "ifscs": [
+      "KKBK0769987",
+      "PUNB0738551"
+    ],
+    "fraud_type": "Digital Arrest Scam",
+    "num_complaints": 6
+  },
+  {
+    "ring_id": "RING-009",
+    "phones": [
+      "+919498531174",
+      "+918767479514"
+    ],
+    "upis": [
+      "user71351@okhdfcbank"
+    ],
+    "accounts": [
+      "24489747629"
+    ],
+    "ifscs": [
+      "HDFC0160738",
+      "HDFC0694916"
+    ],
+    "fraud_type": "Loan App Harassment",
+    "num_complaints": 5
+  },
+  {
+    "ring_id": "RING-010",
+    "phones": [
+      "+918592419071",
+      "+919492379822",
+      "+919509426483"
+    ],
+    "upis": [
+      "user77570@ibl"
+    ],
+    "accounts": [
+      "43666585408"
+    ],
+    "ifscs": [
+      "HDFC0665492",
+      "KKBK0865388"
+    ],
+    "fraud_type": "Digital Arrest Scam",
+    "num_complaints": 8
+  },
+  {
+    "ring_id": "RING-011",
+    "phones": [
+      "+919200995180",
+      "+918223667422"
+    ],
+    "upis": [
+      "user56225@ybl",
+      "user33018@paytm",
+      "user12185@ibl"
+    ],
+    "accounts": [
+      "85336456621"
+    ],
+    "ifscs": [
+      "SBIN0842225"
+    ],
+    "fraud_type": "UPI Fraud - Fake QR Code",
+    "num_complaints": 7
+  },
+  {
+    "ring_id": "RING-012",
+    "phones": [
+      "+919966814117"
+    ],
+    "upis": [
+      "user17275@ybl",
+      "user38595@okhdfcbank"
+    ],
+    "accounts": [
+      "79242068763"
+    ],
+    "ifscs": [
+      "HDFC0922733",
+      "UTIB0946721"
+    ],
+    "fraud_type": "KYC Update Scam",
+    "num_complaints": 7
+  },
+  {
+    "ring_id": "RING-013",
+    "phones": [
+      "+917317696374"
+    ],
+    "upis": [
+      "user46264@okhdfcbank",
+      "user57816@okicici"
+    ],
+    "accounts": [
+      "17532311310"
+    ],
+    "ifscs": [
+      "KKBK0214576",
+      "HDFC0300896"
+    ],
+    "fraud_type": "Digital Arrest Scam",
+    "num_complaints": 12
+  },
+  {
+    "ring_id": "RING-014",
+    "phones": [
+      "+917459365296",
+      "+917601246509"
+    ],
+    "upis": [
+      "user35519@okhdfcbank",
+      "user92780@okaxis"
+    ],
+    "accounts": [
+      "93680451872"
+    ],
+    "ifscs": [
+      "SBIN0890170"
+    ],
+    "fraud_type": "Digital Arrest Scam",
+    "num_complaints": 6
+  },
+  {
+    "ring_id": "RING-015",
+    "phones": [
+      "+918591373092",
+      "+917700462565"
+    ],
+    "upis": [
+      "user26858@okaxis"
+    ],
+    "accounts": [
+      "43941889393",
+      "68406284028"
+    ],
+    "ifscs": [
+      "BARB0865990",
+      "KKBK0682765"
+    ],
+    "fraud_type": "Online Shopping Fraud",
+    "num_complaints": 6
+  }
+]

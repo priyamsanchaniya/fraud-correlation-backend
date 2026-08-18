@@ -1,0 +1,2932 @@
+{
+  "stats": {
+    "total_complaints": 311,
+    "total_links": 387,
+    "clusters_found": 15,
+    "isolated_complaints": 200
+  },
+  "clusters": [
+    {
+      "cluster_id": "CLUSTER-018",
+      "complaint_ids": [
+        "CMP-00088",
+        "CMP-00089",
+        "CMP-00090",
+        "CMP-00091",
+        "CMP-00092",
+        "CMP-00093",
+        "CMP-00094",
+        "CMP-00095",
+        "CMP-00096",
+        "CMP-00097",
+        "CMP-00098",
+        "CMP-00099"
+      ],
+      "size": 12,
+      "states_involved": [
+        "Bihar",
+        "Delhi",
+        "Telangana",
+        "West Bengal"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.998,
+      "total_amount_lost_inr": 2701886
+    },
+    {
+      "cluster_id": "CLUSTER-014",
+      "complaint_ids": [
+        "CMP-00043",
+        "CMP-00044",
+        "CMP-00045",
+        "CMP-00046",
+        "CMP-00047",
+        "CMP-00048",
+        "CMP-00049",
+        "CMP-00050",
+        "CMP-00051",
+        "CMP-00052",
+        "CMP-00053",
+        "CMP-00054"
+      ],
+      "size": 12,
+      "states_involved": [
+        "Delhi",
+        "Maharashtra",
+        "Uttar Pradesh",
+        "West Bengal"
+      ],
+      "cross_state": true,
+      "avg_confidence": 1.0,
+      "total_amount_lost_inr": 1724811
+    },
+    {
+      "cluster_id": "CLUSTER-040",
+      "complaint_ids": [
+        "CMP-00008",
+        "CMP-00009",
+        "CMP-00010",
+        "CMP-00011",
+        "CMP-00012",
+        "CMP-00013",
+        "CMP-00014",
+        "CMP-00015",
+        "CMP-00016"
+      ],
+      "size": 9,
+      "states_involved": [
+        "Delhi",
+        "Telangana",
+        "Uttar Pradesh",
+        "West Bengal"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.813,
+      "total_amount_lost_inr": 2079974
+    },
+    {
+      "cluster_id": "CLUSTER-051",
+      "complaint_ids": [
+        "CMP-00030",
+        "CMP-00031",
+        "CMP-00032",
+        "CMP-00033",
+        "CMP-00034",
+        "CMP-00035",
+        "CMP-00036",
+        "CMP-00037",
+        "CMP-00038"
+      ],
+      "size": 9,
+      "states_involved": [
+        "Delhi",
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Uttar Pradesh",
+        "West Bengal"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.997,
+      "total_amount_lost_inr": 1691006
+    },
+    {
+      "cluster_id": "CLUSTER-001",
+      "complaint_ids": [
+        "CMP-00066",
+        "CMP-00067",
+        "CMP-00068",
+        "CMP-00069",
+        "CMP-00070",
+        "CMP-00071",
+        "CMP-00072",
+        "CMP-00073"
+      ],
+      "size": 8,
+      "states_involved": [
+        "Madhya Pradesh",
+        "West Bengal"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.997,
+      "total_amount_lost_inr": 1545495
+    },
+    {
+      "cluster_id": "CLUSTER-092",
+      "complaint_ids": [
+        "CMP-00017",
+        "CMP-00018",
+        "CMP-00019",
+        "CMP-00020",
+        "CMP-00021",
+        "CMP-00022",
+        "CMP-00023"
+      ],
+      "size": 7,
+      "states_involved": [
+        "Rajasthan",
+        "Telangana"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.786,
+      "total_amount_lost_inr": 2297189
+    },
+    {
+      "cluster_id": "CLUSTER-032",
+      "complaint_ids": [
+        "CMP-00074",
+        "CMP-00075",
+        "CMP-00076",
+        "CMP-00077",
+        "CMP-00078",
+        "CMP-00079",
+        "CMP-00080"
+      ],
+      "size": 7,
+      "states_involved": [
+        "Delhi",
+        "Karnataka",
+        "Telangana"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.993,
+      "total_amount_lost_inr": 1991085
+    },
+    {
+      "cluster_id": "CLUSTER-030",
+      "complaint_ids": [
+        "CMP-00081",
+        "CMP-00082",
+        "CMP-00083",
+        "CMP-00084",
+        "CMP-00085",
+        "CMP-00086",
+        "CMP-00087"
+      ],
+      "size": 7,
+      "states_involved": [
+        "Delhi",
+        "Gujarat",
+        "Uttar Pradesh"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.998,
+      "total_amount_lost_inr": 1887848
+    },
+    {
+      "cluster_id": "CLUSTER-043",
+      "complaint_ids": [
+        "CMP-00001",
+        "CMP-00002",
+        "CMP-00003",
+        "CMP-00004",
+        "CMP-00005",
+        "CMP-00006",
+        "CMP-00007"
+      ],
+      "size": 7,
+      "states_involved": [
+        "Bihar",
+        "Delhi",
+        "Gujarat"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.999,
+      "total_amount_lost_inr": 1739887
+    },
+    {
+      "cluster_id": "CLUSTER-077",
+      "complaint_ids": [
+        "CMP-00055",
+        "CMP-00056",
+        "CMP-00057",
+        "CMP-00058",
+        "CMP-00059",
+        "CMP-00060"
+      ],
+      "size": 6,
+      "states_involved": [
+        "Karnataka",
+        "Uttar Pradesh"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.987,
+      "total_amount_lost_inr": 1754130
+    },
+    {
+      "cluster_id": "CLUSTER-042",
+      "complaint_ids": [
+        "CMP-00024",
+        "CMP-00025",
+        "CMP-00026",
+        "CMP-00027",
+        "CMP-00028",
+        "CMP-00029"
+      ],
+      "size": 6,
+      "states_involved": [
+        "Bihar",
+        "Uttar Pradesh"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.979,
+      "total_amount_lost_inr": 1550935
+    },
+    {
+      "cluster_id": "CLUSTER-021",
+      "complaint_ids": [
+        "CMP-00106",
+        "CMP-00107",
+        "CMP-00108",
+        "CMP-00109",
+        "CMP-00110",
+        "CMP-00111"
+      ],
+      "size": 6,
+      "states_involved": [
+        "Bihar",
+        "Delhi",
+        "Maharashtra",
+        "Telangana"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.974,
+      "total_amount_lost_inr": 1459603
+    },
+    {
+      "cluster_id": "CLUSTER-028",
+      "complaint_ids": [
+        "CMP-00100",
+        "CMP-00101",
+        "CMP-00102",
+        "CMP-00103",
+        "CMP-00104",
+        "CMP-00105"
+      ],
+      "size": 6,
+      "states_involved": [
+        "Gujarat",
+        "Rajasthan",
+        "Telangana",
+        "Uttar Pradesh"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.989,
+      "total_amount_lost_inr": 1239298
+    },
+    {
+      "cluster_id": "CLUSTER-050",
+      "complaint_ids": [
+        "CMP-00061",
+        "CMP-00062",
+        "CMP-00063",
+        "CMP-00064",
+        "CMP-00065"
+      ],
+      "size": 5,
+      "states_involved": [
+        "Bihar",
+        "West Bengal"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.998,
+      "total_amount_lost_inr": 1138161
+    },
+    {
+      "cluster_id": "CLUSTER-013",
+      "complaint_ids": [
+        "CMP-00039",
+        "CMP-00040",
+        "CMP-00041",
+        "CMP-00042"
+      ],
+      "size": 4,
+      "states_involved": [
+        "Madhya Pradesh",
+        "West Bengal"
+      ],
+      "cross_state": true,
+      "avg_confidence": 0.994,
+      "total_amount_lost_inr": 973977
+    },
+    {
+      "cluster_id": "CLUSTER-185",
+      "complaint_ids": [
+        "CMP-00192"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 499456
+    },
+    {
+      "cluster_id": "CLUSTER-128",
+      "complaint_ids": [
+        "CMP-00245"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 498921
+    },
+    {
+      "cluster_id": "CLUSTER-200",
+      "complaint_ids": [
+        "CMP-00112"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 498851
+    },
+    {
+      "cluster_id": "CLUSTER-069",
+      "complaint_ids": [
+        "CMP-00193"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 498646
+    },
+    {
+      "cluster_id": "CLUSTER-065",
+      "complaint_ids": [
+        "CMP-00305"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 496232
+    },
+    {
+      "cluster_id": "CLUSTER-102",
+      "complaint_ids": [
+        "CMP-00136"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 495673
+    },
+    {
+      "cluster_id": "CLUSTER-110",
+      "complaint_ids": [
+        "CMP-00119"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 494949
+    },
+    {
+      "cluster_id": "CLUSTER-201",
+      "complaint_ids": [
+        "CMP-00151"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 491527
+    },
+    {
+      "cluster_id": "CLUSTER-137",
+      "complaint_ids": [
+        "CMP-00156"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 488777
+    },
+    {
+      "cluster_id": "CLUSTER-078",
+      "complaint_ids": [
+        "CMP-00120"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 476557
+    },
+    {
+      "cluster_id": "CLUSTER-012",
+      "complaint_ids": [
+        "CMP-00135"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 471198
+    },
+    {
+      "cluster_id": "CLUSTER-187",
+      "complaint_ids": [
+        "CMP-00145"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 470258
+    },
+    {
+      "cluster_id": "CLUSTER-209",
+      "complaint_ids": [
+        "CMP-00279"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 470107
+    },
+    {
+      "cluster_id": "CLUSTER-023",
+      "complaint_ids": [
+        "CMP-00223"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 467947
+    },
+    {
+      "cluster_id": "CLUSTER-027",
+      "complaint_ids": [
+        "CMP-00283"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 467554
+    },
+    {
+      "cluster_id": "CLUSTER-103",
+      "complaint_ids": [
+        "CMP-00277"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 466961
+    },
+    {
+      "cluster_id": "CLUSTER-035",
+      "complaint_ids": [
+        "CMP-00134"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 462303
+    },
+    {
+      "cluster_id": "CLUSTER-068",
+      "complaint_ids": [
+        "CMP-00212"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 456074
+    },
+    {
+      "cluster_id": "CLUSTER-164",
+      "complaint_ids": [
+        "CMP-00176"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 455029
+    },
+    {
+      "cluster_id": "CLUSTER-017",
+      "complaint_ids": [
+        "CMP-00274"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 451480
+    },
+    {
+      "cluster_id": "CLUSTER-095",
+      "complaint_ids": [
+        "CMP-00239"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 450057
+    },
+    {
+      "cluster_id": "CLUSTER-153",
+      "complaint_ids": [
+        "CMP-00116"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 445491
+    },
+    {
+      "cluster_id": "CLUSTER-048",
+      "complaint_ids": [
+        "CMP-00285"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 440367
+    },
+    {
+      "cluster_id": "CLUSTER-057",
+      "complaint_ids": [
+        "CMP-00177"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 438922
+    },
+    {
+      "cluster_id": "CLUSTER-073",
+      "complaint_ids": [
+        "CMP-00236"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 438155
+    },
+    {
+      "cluster_id": "CLUSTER-026",
+      "complaint_ids": [
+        "CMP-00300"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 434303
+    },
+    {
+      "cluster_id": "CLUSTER-052",
+      "complaint_ids": [
+        "CMP-00164"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 430056
+    },
+    {
+      "cluster_id": "CLUSTER-167",
+      "complaint_ids": [
+        "CMP-00210"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 427041
+    },
+    {
+      "cluster_id": "CLUSTER-215",
+      "complaint_ids": [
+        "CMP-00163"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 425987
+    },
+    {
+      "cluster_id": "CLUSTER-114",
+      "complaint_ids": [
+        "CMP-00228"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 425156
+    },
+    {
+      "cluster_id": "CLUSTER-147",
+      "complaint_ids": [
+        "CMP-00271"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 421883
+    },
+    {
+      "cluster_id": "CLUSTER-133",
+      "complaint_ids": [
+        "CMP-00122"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 415411
+    },
+    {
+      "cluster_id": "CLUSTER-120",
+      "complaint_ids": [
+        "CMP-00252"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 414625
+    },
+    {
+      "cluster_id": "CLUSTER-144",
+      "complaint_ids": [
+        "CMP-00194"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 414020
+    },
+    {
+      "cluster_id": "CLUSTER-099",
+      "complaint_ids": [
+        "CMP-00183"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 413239
+    },
+    {
+      "cluster_id": "CLUSTER-123",
+      "complaint_ids": [
+        "CMP-00147"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 412467
+    },
+    {
+      "cluster_id": "CLUSTER-171",
+      "complaint_ids": [
+        "CMP-00190"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 410509
+    },
+    {
+      "cluster_id": "CLUSTER-181",
+      "complaint_ids": [
+        "CMP-00250"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 406137
+    },
+    {
+      "cluster_id": "CLUSTER-192",
+      "complaint_ids": [
+        "CMP-00165"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 405162
+    },
+    {
+      "cluster_id": "CLUSTER-066",
+      "complaint_ids": [
+        "CMP-00197"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 405153
+    },
+    {
+      "cluster_id": "CLUSTER-121",
+      "complaint_ids": [
+        "CMP-00298"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 404347
+    },
+    {
+      "cluster_id": "CLUSTER-213",
+      "complaint_ids": [
+        "CMP-00113"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 403765
+    },
+    {
+      "cluster_id": "CLUSTER-179",
+      "complaint_ids": [
+        "CMP-00280"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 401084
+    },
+    {
+      "cluster_id": "CLUSTER-093",
+      "complaint_ids": [
+        "CMP-00139"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 400807
+    },
+    {
+      "cluster_id": "CLUSTER-044",
+      "complaint_ids": [
+        "CMP-00253"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 399537
+    },
+    {
+      "cluster_id": "CLUSTER-165",
+      "complaint_ids": [
+        "CMP-00290"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 399517
+    },
+    {
+      "cluster_id": "CLUSTER-150",
+      "complaint_ids": [
+        "CMP-00220"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 394308
+    },
+    {
+      "cluster_id": "CLUSTER-086",
+      "complaint_ids": [
+        "CMP-00155"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 389284
+    },
+    {
+      "cluster_id": "CLUSTER-033",
+      "complaint_ids": [
+        "CMP-00266"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 384100
+    },
+    {
+      "cluster_id": "CLUSTER-196",
+      "complaint_ids": [
+        "CMP-00178"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 379651
+    },
+    {
+      "cluster_id": "CLUSTER-205",
+      "complaint_ids": [
+        "CMP-00114"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 379270
+    },
+    {
+      "cluster_id": "CLUSTER-212",
+      "complaint_ids": [
+        "CMP-00267"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 374018
+    },
+    {
+      "cluster_id": "CLUSTER-046",
+      "complaint_ids": [
+        "CMP-00146"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 373583
+    },
+    {
+      "cluster_id": "CLUSTER-208",
+      "complaint_ids": [
+        "CMP-00275"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 373232
+    },
+    {
+      "cluster_id": "CLUSTER-129",
+      "complaint_ids": [
+        "CMP-00311"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 373028
+    },
+    {
+      "cluster_id": "CLUSTER-206",
+      "complaint_ids": [
+        "CMP-00179"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 372760
+    },
+    {
+      "cluster_id": "CLUSTER-020",
+      "complaint_ids": [
+        "CMP-00238"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 371468
+    },
+    {
+      "cluster_id": "CLUSTER-174",
+      "complaint_ids": [
+        "CMP-00303"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 369009
+    },
+    {
+      "cluster_id": "CLUSTER-088",
+      "complaint_ids": [
+        "CMP-00217"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 368708
+    },
+    {
+      "cluster_id": "CLUSTER-140",
+      "complaint_ids": [
+        "CMP-00226"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 368307
+    },
+    {
+      "cluster_id": "CLUSTER-080",
+      "complaint_ids": [
+        "CMP-00216"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 363020
+    },
+    {
+      "cluster_id": "CLUSTER-061",
+      "complaint_ids": [
+        "CMP-00182"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 360634
+    },
+    {
+      "cluster_id": "CLUSTER-131",
+      "complaint_ids": [
+        "CMP-00306"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 360293
+    },
+    {
+      "cluster_id": "CLUSTER-045",
+      "complaint_ids": [
+        "CMP-00131"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 359527
+    },
+    {
+      "cluster_id": "CLUSTER-112",
+      "complaint_ids": [
+        "CMP-00231"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 355016
+    },
+    {
+      "cluster_id": "CLUSTER-008",
+      "complaint_ids": [
+        "CMP-00304"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 354517
+    },
+    {
+      "cluster_id": "CLUSTER-211",
+      "complaint_ids": [
+        "CMP-00259"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 352298
+    },
+    {
+      "cluster_id": "CLUSTER-076",
+      "complaint_ids": [
+        "CMP-00121"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 350321
+    },
+    {
+      "cluster_id": "CLUSTER-059",
+      "complaint_ids": [
+        "CMP-00302"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 346730
+    },
+    {
+      "cluster_id": "CLUSTER-172",
+      "complaint_ids": [
+        "CMP-00225"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 337826
+    },
+    {
+      "cluster_id": "CLUSTER-094",
+      "complaint_ids": [
+        "CMP-00243"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 332696
+    },
+    {
+      "cluster_id": "CLUSTER-138",
+      "complaint_ids": [
+        "CMP-00240"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 332457
+    },
+    {
+      "cluster_id": "CLUSTER-130",
+      "complaint_ids": [
+        "CMP-00140"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 324635
+    },
+    {
+      "cluster_id": "CLUSTER-151",
+      "complaint_ids": [
+        "CMP-00287"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 321292
+    },
+    {
+      "cluster_id": "CLUSTER-005",
+      "complaint_ids": [
+        "CMP-00222"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 320204
+    },
+    {
+      "cluster_id": "CLUSTER-025",
+      "complaint_ids": [
+        "CMP-00292"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 311723
+    },
+    {
+      "cluster_id": "CLUSTER-098",
+      "complaint_ids": [
+        "CMP-00263"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 310246
+    },
+    {
+      "cluster_id": "CLUSTER-122",
+      "complaint_ids": [
+        "CMP-00153"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 309668
+    },
+    {
+      "cluster_id": "CLUSTER-145",
+      "complaint_ids": [
+        "CMP-00159"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 302352
+    },
+    {
+      "cluster_id": "CLUSTER-156",
+      "complaint_ids": [
+        "CMP-00148"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 302191
+    },
+    {
+      "cluster_id": "CLUSTER-029",
+      "complaint_ids": [
+        "CMP-00246"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 297492
+    },
+    {
+      "cluster_id": "CLUSTER-204",
+      "complaint_ids": [
+        "CMP-00170"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 293880
+    },
+    {
+      "cluster_id": "CLUSTER-036",
+      "complaint_ids": [
+        "CMP-00187"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 291951
+    },
+    {
+      "cluster_id": "CLUSTER-113",
+      "complaint_ids": [
+        "CMP-00262"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 291435
+    },
+    {
+      "cluster_id": "CLUSTER-041",
+      "complaint_ids": [
+        "CMP-00154"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 290543
+    },
+    {
+      "cluster_id": "CLUSTER-162",
+      "complaint_ids": [
+        "CMP-00184"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 286704
+    },
+    {
+      "cluster_id": "CLUSTER-079",
+      "complaint_ids": [
+        "CMP-00161"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 283814
+    },
+    {
+      "cluster_id": "CLUSTER-127",
+      "complaint_ids": [
+        "CMP-00142"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 283380
+    },
+    {
+      "cluster_id": "CLUSTER-002",
+      "complaint_ids": [
+        "CMP-00281"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 281855
+    },
+    {
+      "cluster_id": "CLUSTER-054",
+      "complaint_ids": [
+        "CMP-00172"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 279868
+    },
+    {
+      "cluster_id": "CLUSTER-064",
+      "complaint_ids": [
+        "CMP-00234"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 279775
+    },
+    {
+      "cluster_id": "CLUSTER-139",
+      "complaint_ids": [
+        "CMP-00129"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 279589
+    },
+    {
+      "cluster_id": "CLUSTER-116",
+      "complaint_ids": [
+        "CMP-00299"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 275670
+    },
+    {
+      "cluster_id": "CLUSTER-152",
+      "complaint_ids": [
+        "CMP-00162"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 267020
+    },
+    {
+      "cluster_id": "CLUSTER-104",
+      "complaint_ids": [
+        "CMP-00235"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 266989
+    },
+    {
+      "cluster_id": "CLUSTER-207",
+      "complaint_ids": [
+        "CMP-00207"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 261506
+    },
+    {
+      "cluster_id": "CLUSTER-083",
+      "complaint_ids": [
+        "CMP-00256"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 259398
+    },
+    {
+      "cluster_id": "CLUSTER-039",
+      "complaint_ids": [
+        "CMP-00215"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 256456
+    },
+    {
+      "cluster_id": "CLUSTER-142",
+      "complaint_ids": [
+        "CMP-00150"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 255849
+    },
+    {
+      "cluster_id": "CLUSTER-191",
+      "complaint_ids": [
+        "CMP-00196"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 253257
+    },
+    {
+      "cluster_id": "CLUSTER-087",
+      "complaint_ids": [
+        "CMP-00123"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 252888
+    },
+    {
+      "cluster_id": "CLUSTER-082",
+      "complaint_ids": [
+        "CMP-00269"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 250817
+    },
+    {
+      "cluster_id": "CLUSTER-203",
+      "complaint_ids": [
+        "CMP-00295"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 248042
+    },
+    {
+      "cluster_id": "CLUSTER-007",
+      "complaint_ids": [
+        "CMP-00310"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 246491
+    },
+    {
+      "cluster_id": "CLUSTER-063",
+      "complaint_ids": [
+        "CMP-00115"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 244053
+    },
+    {
+      "cluster_id": "CLUSTER-178",
+      "complaint_ids": [
+        "CMP-00296"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 234882
+    },
+    {
+      "cluster_id": "CLUSTER-011",
+      "complaint_ids": [
+        "CMP-00186"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 231160
+    },
+    {
+      "cluster_id": "CLUSTER-134",
+      "complaint_ids": [
+        "CMP-00294"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 228936
+    },
+    {
+      "cluster_id": "CLUSTER-090",
+      "complaint_ids": [
+        "CMP-00189"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 227957
+    },
+    {
+      "cluster_id": "CLUSTER-190",
+      "complaint_ids": [
+        "CMP-00286"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 222657
+    },
+    {
+      "cluster_id": "CLUSTER-173",
+      "complaint_ids": [
+        "CMP-00180"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 217659
+    },
+    {
+      "cluster_id": "CLUSTER-097",
+      "complaint_ids": [
+        "CMP-00158"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 212152
+    },
+    {
+      "cluster_id": "CLUSTER-169",
+      "complaint_ids": [
+        "CMP-00291"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 212122
+    },
+    {
+      "cluster_id": "CLUSTER-096",
+      "complaint_ids": [
+        "CMP-00133"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 210750
+    },
+    {
+      "cluster_id": "CLUSTER-049",
+      "complaint_ids": [
+        "CMP-00258"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 201987
+    },
+    {
+      "cluster_id": "CLUSTER-149",
+      "complaint_ids": [
+        "CMP-00173"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 199744
+    },
+    {
+      "cluster_id": "CLUSTER-101",
+      "complaint_ids": [
+        "CMP-00248"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 197869
+    },
+    {
+      "cluster_id": "CLUSTER-019",
+      "complaint_ids": [
+        "CMP-00205"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 197719
+    },
+    {
+      "cluster_id": "CLUSTER-186",
+      "complaint_ids": [
+        "CMP-00265"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 197266
+    },
+    {
+      "cluster_id": "CLUSTER-157",
+      "complaint_ids": [
+        "CMP-00232"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 195419
+    },
+    {
+      "cluster_id": "CLUSTER-071",
+      "complaint_ids": [
+        "CMP-00203"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 193780
+    },
+    {
+      "cluster_id": "CLUSTER-141",
+      "complaint_ids": [
+        "CMP-00268"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 190940
+    },
+    {
+      "cluster_id": "CLUSTER-125",
+      "complaint_ids": [
+        "CMP-00175"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 190355
+    },
+    {
+      "cluster_id": "CLUSTER-106",
+      "complaint_ids": [
+        "CMP-00249"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 189079
+    },
+    {
+      "cluster_id": "CLUSTER-159",
+      "complaint_ids": [
+        "CMP-00204"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 186541
+    },
+    {
+      "cluster_id": "CLUSTER-170",
+      "complaint_ids": [
+        "CMP-00199"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 182862
+    },
+    {
+      "cluster_id": "CLUSTER-067",
+      "complaint_ids": [
+        "CMP-00251"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 169519
+    },
+    {
+      "cluster_id": "CLUSTER-003",
+      "complaint_ids": [
+        "CMP-00237"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 166643
+    },
+    {
+      "cluster_id": "CLUSTER-199",
+      "complaint_ids": [
+        "CMP-00272"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 160411
+    },
+    {
+      "cluster_id": "CLUSTER-100",
+      "complaint_ids": [
+        "CMP-00219"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 158895
+    },
+    {
+      "cluster_id": "CLUSTER-015",
+      "complaint_ids": [
+        "CMP-00257"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 154993
+    },
+    {
+      "cluster_id": "CLUSTER-107",
+      "complaint_ids": [
+        "CMP-00195"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 154741
+    },
+    {
+      "cluster_id": "CLUSTER-022",
+      "complaint_ids": [
+        "CMP-00208"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 153346
+    },
+    {
+      "cluster_id": "CLUSTER-155",
+      "complaint_ids": [
+        "CMP-00211"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 149369
+    },
+    {
+      "cluster_id": "CLUSTER-143",
+      "complaint_ids": [
+        "CMP-00191"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 146683
+    },
+    {
+      "cluster_id": "CLUSTER-009",
+      "complaint_ids": [
+        "CMP-00127"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 145946
+    },
+    {
+      "cluster_id": "CLUSTER-056",
+      "complaint_ids": [
+        "CMP-00130"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 138466
+    },
+    {
+      "cluster_id": "CLUSTER-016",
+      "complaint_ids": [
+        "CMP-00157"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 136880
+    },
+    {
+      "cluster_id": "CLUSTER-194",
+      "complaint_ids": [
+        "CMP-00124"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 134809
+    },
+    {
+      "cluster_id": "CLUSTER-115",
+      "complaint_ids": [
+        "CMP-00181"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 128337
+    },
+    {
+      "cluster_id": "CLUSTER-202",
+      "complaint_ids": [
+        "CMP-00185"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 128076
+    },
+    {
+      "cluster_id": "CLUSTER-197",
+      "complaint_ids": [
+        "CMP-00288"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 124948
+    },
+    {
+      "cluster_id": "CLUSTER-109",
+      "complaint_ids": [
+        "CMP-00169"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 124768
+    },
+    {
+      "cluster_id": "CLUSTER-132",
+      "complaint_ids": [
+        "CMP-00289"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 123194
+    },
+    {
+      "cluster_id": "CLUSTER-084",
+      "complaint_ids": [
+        "CMP-00167"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 122410
+    },
+    {
+      "cluster_id": "CLUSTER-161",
+      "complaint_ids": [
+        "CMP-00307"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 119601
+    },
+    {
+      "cluster_id": "CLUSTER-214",
+      "complaint_ids": [
+        "CMP-00270"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 118051
+    },
+    {
+      "cluster_id": "CLUSTER-198",
+      "complaint_ids": [
+        "CMP-00244"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 116829
+    },
+    {
+      "cluster_id": "CLUSTER-124",
+      "complaint_ids": [
+        "CMP-00209"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 116578
+    },
+    {
+      "cluster_id": "CLUSTER-148",
+      "complaint_ids": [
+        "CMP-00137"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 112524
+    },
+    {
+      "cluster_id": "CLUSTER-037",
+      "complaint_ids": [
+        "CMP-00149"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 110706
+    },
+    {
+      "cluster_id": "CLUSTER-058",
+      "complaint_ids": [
+        "CMP-00255"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 109767
+    },
+    {
+      "cluster_id": "CLUSTER-188",
+      "complaint_ids": [
+        "CMP-00132"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 107371
+    },
+    {
+      "cluster_id": "CLUSTER-038",
+      "complaint_ids": [
+        "CMP-00202"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 105454
+    },
+    {
+      "cluster_id": "CLUSTER-154",
+      "complaint_ids": [
+        "CMP-00278"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 103996
+    },
+    {
+      "cluster_id": "CLUSTER-053",
+      "complaint_ids": [
+        "CMP-00174"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 101627
+    },
+    {
+      "cluster_id": "CLUSTER-193",
+      "complaint_ids": [
+        "CMP-00125"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 99946
+    },
+    {
+      "cluster_id": "CLUSTER-168",
+      "complaint_ids": [
+        "CMP-00166"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 95571
+    },
+    {
+      "cluster_id": "CLUSTER-135",
+      "complaint_ids": [
+        "CMP-00309"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 95022
+    },
+    {
+      "cluster_id": "CLUSTER-034",
+      "complaint_ids": [
+        "CMP-00201"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 93463
+    },
+    {
+      "cluster_id": "CLUSTER-184",
+      "complaint_ids": [
+        "CMP-00264"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 92282
+    },
+    {
+      "cluster_id": "CLUSTER-182",
+      "complaint_ids": [
+        "CMP-00284"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 90596
+    },
+    {
+      "cluster_id": "CLUSTER-166",
+      "complaint_ids": [
+        "CMP-00241"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 90074
+    },
+    {
+      "cluster_id": "CLUSTER-085",
+      "complaint_ids": [
+        "CMP-00206"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 89485
+    },
+    {
+      "cluster_id": "CLUSTER-195",
+      "complaint_ids": [
+        "CMP-00229"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 84475
+    },
+    {
+      "cluster_id": "CLUSTER-006",
+      "complaint_ids": [
+        "CMP-00188"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 82856
+    },
+    {
+      "cluster_id": "CLUSTER-075",
+      "complaint_ids": [
+        "CMP-00230"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 80687
+    },
+    {
+      "cluster_id": "CLUSTER-062",
+      "complaint_ids": [
+        "CMP-00171"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 80233
+    },
+    {
+      "cluster_id": "CLUSTER-160",
+      "complaint_ids": [
+        "CMP-00242"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 79925
+    },
+    {
+      "cluster_id": "CLUSTER-163",
+      "complaint_ids": [
+        "CMP-00118"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 78571
+    },
+    {
+      "cluster_id": "CLUSTER-072",
+      "complaint_ids": [
+        "CMP-00144"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 77637
+    },
+    {
+      "cluster_id": "CLUSTER-024",
+      "complaint_ids": [
+        "CMP-00221"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 75311
+    },
+    {
+      "cluster_id": "CLUSTER-089",
+      "complaint_ids": [
+        "CMP-00301"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 72588
+    },
+    {
+      "cluster_id": "CLUSTER-105",
+      "complaint_ids": [
+        "CMP-00282"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 69596
+    },
+    {
+      "cluster_id": "CLUSTER-111",
+      "complaint_ids": [
+        "CMP-00160"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 63559
+    },
+    {
+      "cluster_id": "CLUSTER-117",
+      "complaint_ids": [
+        "CMP-00168"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 54898
+    },
+    {
+      "cluster_id": "CLUSTER-189",
+      "complaint_ids": [
+        "CMP-00198"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 53698
+    },
+    {
+      "cluster_id": "CLUSTER-004",
+      "complaint_ids": [
+        "CMP-00200"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 53182
+    },
+    {
+      "cluster_id": "CLUSTER-118",
+      "complaint_ids": [
+        "CMP-00276"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 53172
+    },
+    {
+      "cluster_id": "CLUSTER-047",
+      "complaint_ids": [
+        "CMP-00126"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 43979
+    },
+    {
+      "cluster_id": "CLUSTER-180",
+      "complaint_ids": [
+        "CMP-00152"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Delhi"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 43434
+    },
+    {
+      "cluster_id": "CLUSTER-060",
+      "complaint_ids": [
+        "CMP-00260"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Karnataka"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 43395
+    },
+    {
+      "cluster_id": "CLUSTER-210",
+      "complaint_ids": [
+        "CMP-00213"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 41592
+    },
+    {
+      "cluster_id": "CLUSTER-010",
+      "complaint_ids": [
+        "CMP-00254"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 41322
+    },
+    {
+      "cluster_id": "CLUSTER-158",
+      "complaint_ids": [
+        "CMP-00143"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 40551
+    },
+    {
+      "cluster_id": "CLUSTER-175",
+      "complaint_ids": [
+        "CMP-00138"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 40258
+    },
+    {
+      "cluster_id": "CLUSTER-091",
+      "complaint_ids": [
+        "CMP-00128"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 37249
+    },
+    {
+      "cluster_id": "CLUSTER-070",
+      "complaint_ids": [
+        "CMP-00273"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 35469
+    },
+    {
+      "cluster_id": "CLUSTER-176",
+      "complaint_ids": [
+        "CMP-00214"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Maharashtra"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 35203
+    },
+    {
+      "cluster_id": "CLUSTER-146",
+      "complaint_ids": [
+        "CMP-00293"
+      ],
+      "size": 1,
+      "states_involved": [
+        "West Bengal"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 26102
+    },
+    {
+      "cluster_id": "CLUSTER-183",
+      "complaint_ids": [
+        "CMP-00261"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 24374
+    },
+    {
+      "cluster_id": "CLUSTER-074",
+      "complaint_ids": [
+        "CMP-00117"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 15982
+    },
+    {
+      "cluster_id": "CLUSTER-119",
+      "complaint_ids": [
+        "CMP-00141"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 14151
+    },
+    {
+      "cluster_id": "CLUSTER-031",
+      "complaint_ids": [
+        "CMP-00224"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Gujarat"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 9231
+    },
+    {
+      "cluster_id": "CLUSTER-081",
+      "complaint_ids": [
+        "CMP-00308"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Telangana"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 8797
+    },
+    {
+      "cluster_id": "CLUSTER-126",
+      "complaint_ids": [
+        "CMP-00227"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Uttar Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 7950
+    },
+    {
+      "cluster_id": "CLUSTER-177",
+      "complaint_ids": [
+        "CMP-00218"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 6227
+    },
+    {
+      "cluster_id": "CLUSTER-136",
+      "complaint_ids": [
+        "CMP-00233"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Bihar"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 5343
+    },
+    {
+      "cluster_id": "CLUSTER-108",
+      "complaint_ids": [
+        "CMP-00247"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Madhya Pradesh"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 2358
+    },
+    {
+      "cluster_id": "CLUSTER-055",
+      "complaint_ids": [
+        "CMP-00297"
+      ],
+      "size": 1,
+      "states_involved": [
+        "Rajasthan"
+      ],
+      "cross_state": false,
+      "avg_confidence": 0.0,
+      "total_amount_lost_inr": 2088
+    }
+  ]
+}
