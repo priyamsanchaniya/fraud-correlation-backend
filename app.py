@@ -39,6 +39,14 @@ import correlation
 
 app = Flask(__name__)
 
+# Create database tables if they don't exist yet. This MUST run at module
+# level (not just inside `if __name__ == "__main__"`), because production
+# servers like gunicorn import this file as a module rather than running
+# it directly - so the __main__ block never executes there. Without this,
+# the app would deploy successfully but every request would fail with a
+# 500 error because the tables were never created.
+db.init_db()
+
 JWT_SECRET = os.environ.get("JWT_SECRET", "dev-only-secret-change-this-in-production")
 JWT_ALGO = "HS256"
 TOKEN_EXPIRY_HOURS = 12
@@ -370,7 +378,6 @@ def health():
 
 
 if __name__ == "__main__":
-    db.init_db()
     print(f"Database: {'PostgreSQL' if db.USE_POSTGRES else 'SQLite (local)'}")
     print("Starting server on http://localhost:5000")
     app.run(debug=False, port=5000, use_reloader=False)
