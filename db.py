@@ -113,6 +113,34 @@ CREATE TABLE IF NOT EXISTS complaints (
     last_edited_at TEXT,
     created_at TEXT NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS cctv_cameras (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    owner_name TEXT NOT NULL,
+    owner_contact TEXT,
+    camera_type TEXT NOT NULL,
+    address TEXT NOT NULL,
+    city TEXT NOT NULL,
+    state TEXT NOT NULL,
+    latitude REAL NOT NULL,
+    longitude REAL NOT NULL,
+    registered_by_name TEXT,
+    registered_by_email TEXT,
+    created_at TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS evidence (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    complaint_id TEXT NOT NULL,
+    file_name TEXT NOT NULL,
+    file_type TEXT NOT NULL,
+    file_size_kb REAL NOT NULL,
+    file_data TEXT NOT NULL,
+    caption TEXT,
+    uploaded_by_name TEXT,
+    uploaded_by_email TEXT,
+    uploaded_at TEXT NOT NULL
+);
 """
 
 SCHEMA_POSTGRES = """
@@ -145,6 +173,34 @@ CREATE TABLE IF NOT EXISTS complaints (
     last_edited_by TEXT,
     last_edited_at TEXT,
     created_at TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS cctv_cameras (
+    id SERIAL PRIMARY KEY,
+    owner_name TEXT NOT NULL,
+    owner_contact TEXT,
+    camera_type TEXT NOT NULL,
+    address TEXT NOT NULL,
+    city TEXT NOT NULL,
+    state TEXT NOT NULL,
+    latitude DOUBLE PRECISION NOT NULL,
+    longitude DOUBLE PRECISION NOT NULL,
+    registered_by_name TEXT,
+    registered_by_email TEXT,
+    created_at TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS evidence (
+    id SERIAL PRIMARY KEY,
+    complaint_id TEXT NOT NULL,
+    file_name TEXT NOT NULL,
+    file_type TEXT NOT NULL,
+    file_size_kb DOUBLE PRECISION NOT NULL,
+    file_data TEXT NOT NULL,
+    caption TEXT,
+    uploaded_by_name TEXT,
+    uploaded_by_email TEXT,
+    uploaded_at TEXT NOT NULL
 );
 """
 

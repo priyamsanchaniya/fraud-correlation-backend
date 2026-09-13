@@ -29,6 +29,8 @@ Endpoints:
 import os
 import re
 import jwt
+import math
+import base64
 import datetime
 from functools import wraps
 from flask import Flask, request, jsonify
@@ -370,6 +372,188 @@ def get_analytics():
         "by_state": states,
         "by_fraud_type": fraud_types,
     })
+
+
+# ---------------------------------------------------------------------
+# CCTV CAMERA REGISTRY
+# -----------------------------------------------------------------------
+# There is no public API for real government/private CCTV camera
+# locations - that data isn't openly available to anyone, including us.
+# What several Indian city police forces actually do (e.g. citizen CCTV
+# registration drives) is build their OWN registry over time: shop
+# owners, housing societies, and citizens voluntarily register that they
+# have a camera at a given address, so that when a crime happens nearby,
+# police know exactly which doors to knock on to ask for footage. This
+# endpoint set implements exactly that model - it is not a live feed or
+# a database of India's cameras, it is a registry that starts empty and
+# grows as officers/citizens add entries.
+# ---------------------------------------------------------------------
+def haversine_km(lat1, lon1, lat2, lon2):
+    """Great-circle distance between two lat/long points, in kilometers."""
+    R = 6371.0
+    phi1, phi2 = math.radians(lat1), math.radians(lat2)
+    dphi = math.radians(lat2 - lat1)
+    dlambda = math.radians(lon2 - lon1)
+    a = math.sin(dphi / 2) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2) ** 2
+    return 2 * R * math.asin(math.sqrt(a))
+
+
+CCTV_FIELDS = ["id", "owner_name", "owner_contact", "camera_type", "address",
+               "city", "state", "latitude", "longitude", "registered_by_name",
+               "registered_by_email", "created_at"]
+
+
+@app.route("/api/cctv", methods=["GET"])
+@require_auth
+def list_cctv_cameras():
+    rows = db.run(f"SELECT {', '.join(CCTV_FIELDS)} FROM cctv_cameras ORDER BY created_at DESC", fetch="all")
+    return jsonify(rows)
+
+
+@app.route("/api/cctv", methods=["POST"])
+@require_auth
+def register_cctv_camera():
+    data = request.get_json(force=True)
+    required = ["owner_name", "camera_type", "address", "city", "state", "latitude", "longitude"]
+    missing = [f for f in required if not str(data.get(f, "")).strip() and data.get(f) != 0]
+    if missing:
+        return jsonify({"error": f"Missing required field(s): {', '.join(missing)}"}), 400
+
+    try:
+        lat = float(data["latitude"])
+        lng = float(data["longitude"])
+    except (ValueError, TypeError):
+        return jsonify({"error": "Latitude/longitude must be numbers"}), 400
+    if not (-90 <= lat <= 90 and -180 <= lng <= 180):
+        return jsonify({"error": "Latitude/longitude out of valid range"}), 400
+
+    user = request.current_user
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    db.run(
+        """INSERT INTO cctv_cameras
+           (owner_name, owner_contact, camera_type, address, city, state,
+            latitude, longitude, registered_by_name, registered_by_email, created_at)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        (data["owner_name"], data.get("owner_contact", ""), data["camera_type"],
+         data["address"], data["city"], data["state"], lat, lng,
+         user["name"], user["email"], now),
+    )
+    return jsonify({"registered": True}), 201
+
+
+@app.route("/api/cctv/nearby", methods=["GET"])
+@require_auth
+def nearby_cctv_cameras():
+    """
+    Given a lat/long (typically geocoded from a complaint's city on the
+    frontend) and a radius in km, returns registered cameras within that
+    radius, sorted nearest first. Distance is computed in Python rather
+    than in SQL so this works identically on both SQLite and PostgreSQL.
+    """
+    try:
+        lat = float(request.args.get("lat"))
+        lng = float(request.args.get("lng"))
+    except (TypeError, ValueError):
+        return jsonify({"error": "lat and lng query parameters are required"}), 400
+    radius_km = float(request.args.get("radius_km", 5))
+
+    all_cameras = db.run(f"SELECT {', '.join(CCTV_FIELDS)} FROM cctv_cameras", fetch="all")
+    nearby = []
+    for cam in all_cameras:
+        dist = haversine_km(lat, lng, cam["latitude"], cam["longitude"])
+        if dist <= radius_km:
+            cam_with_dist = dict(cam)
+            cam_with_dist["distance_km"] = round(dist, 2)
+            nearby.append(cam_with_dist)
+
+    nearby.sort(key=lambda c: c["distance_km"])
+    return jsonify(nearby)
+
+
+# ---------------------------------------------------------------------
+# EVIDENCE UPLOAD
+# -----------------------------------------------------------------------
+# Lets an officer attach photo evidence (or short video clips) to a
+# specific complaint. Files are stored as base64 in the database - fine
+# for a hackathon-scale demo with a handful of images per case, but a
+# real production deployment should switch this to object storage
+# (e.g. S3-compatible storage) once file volume grows, since storing
+# large binaries directly in a relational database doesn't scale well.
+# A hard size cap is enforced here specifically to prevent that from
+# becoming a problem at this stage.
+# ---------------------------------------------------------------------
+MAX_EVIDENCE_SIZE_KB = 4000  # ~4 MB per file
+
+EVIDENCE_FIELDS = ["id", "complaint_id", "file_name", "file_type", "file_size_kb",
+                   "caption", "uploaded_by_name", "uploaded_by_email", "uploaded_at"]
+
+
+@app.route("/api/complaints/<complaint_id>/evidence", methods=["GET"])
+@require_auth
+def list_evidence(complaint_id):
+    rows = db.run(
+        f"SELECT {', '.join(EVIDENCE_FIELDS)} FROM evidence WHERE complaint_id = ? ORDER BY uploaded_at DESC",
+        (complaint_id,), fetch="all"
+    )
+    return jsonify(rows)
+
+
+@app.route("/api/complaints/<complaint_id>/evidence/<int:evidence_id>", methods=["GET"])
+@require_auth
+def get_evidence_file(complaint_id, evidence_id):
+    """Returns the actual file data (base64) - separate from the list
+    endpoint above so listing evidence for a case stays fast even with
+    several large files attached."""
+    row = db.run(
+        "SELECT file_name, file_type, file_data FROM evidence WHERE id = ? AND complaint_id = ?",
+        (evidence_id, complaint_id), fetch="one"
+    )
+    if not row:
+        return jsonify({"error": "Evidence not found"}), 404
+    return jsonify(row)
+
+
+@app.route("/api/complaints/<complaint_id>/evidence", methods=["POST"])
+@require_auth
+def upload_evidence(complaint_id):
+    complaint = db.run("SELECT complaint_id FROM complaints WHERE complaint_id = ?", (complaint_id,), fetch="one")
+    if not complaint:
+        return jsonify({"error": "Complaint not found"}), 404
+
+    data = request.get_json(force=True)
+    file_name = (data.get("file_name") or "").strip()
+    file_type = (data.get("file_type") or "").strip()
+    file_data = data.get("file_data") or ""  # base64 string, no data: prefix
+    caption = (data.get("caption") or "").strip()
+
+    if not file_name or not file_type or not file_data:
+        return jsonify({"error": "file_name, file_type, and file_data are required"}), 400
+
+    size_kb = len(file_data) * 3 / 4 / 1024  # approximate decoded size from base64 length
+    if size_kb > MAX_EVIDENCE_SIZE_KB:
+        return jsonify({"error": f"File too large ({round(size_kb)} KB) - max {MAX_EVIDENCE_SIZE_KB} KB per file"}), 400
+
+    user = request.current_user
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    db.run(
+        """INSERT INTO evidence
+           (complaint_id, file_name, file_type, file_size_kb, file_data, caption,
+            uploaded_by_name, uploaded_by_email, uploaded_at)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        (complaint_id, file_name, file_type, size_kb, file_data, caption,
+         user["name"], user["email"], now),
+    )
+    return jsonify({"uploaded": True}), 201
+
+
+@app.route("/api/complaints/<complaint_id>/evidence/<int:evidence_id>", methods=["DELETE"])
+@require_auth
+def delete_evidence(complaint_id, evidence_id):
+    existing = db.run("SELECT id FROM evidence WHERE id = ? AND complaint_id = ?", (evidence_id, complaint_id), fetch="one")
+    if not existing:
+        return jsonify({"error": "Evidence not found"}), 404
+    db.run("DELETE FROM evidence WHERE id = ?", (evidence_id,))
+    return jsonify({"deleted": evidence_id})
 
 
 @app.route("/api/health", methods=["GET"])
